@@ -6,7 +6,7 @@ function SingleMovie() {
   const [dataMovie, setDataMovie] = useState({})
 
   const fetchData = async () => {
-    const url = `http://www.omdbapi.com?apikey=faf7e5bb&i=${id}`
+    const url = `https://www.omdbapi.com?apikey=faf7e5bb&i=${id}`
     const response = await fetch(`${url}`)
     const data = await response.json()
     setDataMovie(data)
