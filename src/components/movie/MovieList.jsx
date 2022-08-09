@@ -61,7 +61,6 @@ function MovieList() {
         Load More
         </button>
         </div>
-      
     }
    
    </>
